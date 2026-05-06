@@ -1,39 +1,25 @@
 # Ali Abouelazm
 
-Junior Data Engineer building end-to-end data ecosystems: sourcing, cleansing, modeling, and delivering insights that accelerate experimentation and product decisions. Combining software engineering, statistics, and ML/AI to transform datasets into production-ready products including feature stores, experimentation platforms, forecasting services, and data applications.
+ML engineer building real-time AI systems: agentic assistants, biosensor prediction pipelines, and applied LLM tooling.
 
-Currently based in Sugar Land, TX. Open to internships in Data Science and ML/AI.
+Studying Data Engineering at Texas A&M University (graduating May 2027). Currently doing ML research at AgriLife and joining Cloudflare's AEO team summer 2026.
 
-## About Me
-
-I'm currently working on automating ingestion pipelines and evaluation dashboards for ML/AI teams. I'm looking to collaborate on data science and machine learning projects with a focus on production systems and scalable solutions. I'm currently learning advanced deep learning architectures, distributed data processing, and MLOps practices.
-
-Ask me about data engineering, machine learning model deployment, feature engineering, and building data pipelines.
-
-## Technical Skills
-
-**Languages:** Python, R, SQL, Java, JavaScript, TypeScript, C/C++, HTML/CSS
-
-**AI/ML:** scikit-learn, XGBoost, CatBoost, LightGBM, TensorFlow, PyTorch, Keras, Transformers
-
-**Data/Viz:** pandas, NumPy, SciPy, Dask, GeoPandas, Statsmodels, Matplotlib, Seaborn, Plotly, Tableau
-
-**Cloud & Tools:** AWS (S3, Athena, QuickSight), SQLAlchemy, FastAPI, Streamlit, BeautifulSoup, Selenium
+**Seeking full-time ML/AI Engineer roles · Available May 2027**
 
 ## Featured Projects
 
-- **Stockly** - Production-quality stock market prediction and backtesting system with SQLite-based data storage, comprehensive feature engineering, and multiple ML models (LSTM/GRU, Logistic Regression, Random Forest)
-- **PL Predictor** - English Premier League match outcome predictor using XGBoost with web scraping for real-time data updates
-- **Localytics** - Market segmentation and geospatial analytics project combining demographic and behavioral data analysis with clustering algorithms and Tableau dashboards
-- **clinix.ai** - Medical triage and symptom-to-risk assessment system using LLM semantic interpretation and classical ML models with FastAPI backend and Streamlit dashboard
+- **[Sonus](https://github.com/AliAbouelazm/sonus)**: Autonomous LLM assistant that learns your patterns and orchestrates 10+ real integrations (smart home, wearables, calendar, Spotify) to act without being asked
+- **[clinix.ai](https://github.com/AliAbouelazm/clinix.ai)**: LLM-powered medical triage: symptom parsing -> ML risk scoring -> FastAPI + Streamlit dashboard · [Live demo](https://clinixai.streamlit.app/)
+- **[Causal Marketing Impact](https://github.com/AliAbouelazm/Casual_Marketing_Impact)**: DoubleML app isolating true marketing ROI from confounders · Dockerized + CI/CD
+
+## Technical Skills
+
+**ML & AI:** PyTorch, TensorFlow, scikit-learn, XGBoost, OpenAI/Anthropic APIs, OpenCV, LLM tool-calling
+**Languages:** Python, SQL, C/C++, TypeScript, JavaScript, R
+**Data & Cloud:** AWS (S3, Athena), PostgreSQL, Snowflake, Docker, FastAPI, WebSockets
+**Libraries:** pandas, NumPy, Matplotlib, Seaborn, Dask, SciPy
 
 ## Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ali-abouelazm-3a784429b/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ali-abouelazm/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?logo=About.me&logoColor=white)](https://aliabouelazm.com)
-
-## GitHub Stats
-
-![](https://github-readme-stats.vercel.app/api?username=AliAbouelazm&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
-![](https://github-readme-streak-stats.herokuapp.com/?user=AliAbouelazm&theme=dark&hide_border=false)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=AliAbouelazm&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
