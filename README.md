@@ -8,6 +8,12 @@ Currently a **Data Engineering co-op on Tesla's Fleet Analytics team**. Previous
 
 ## Selected ML projects
 
+### [Trace Check: agent trace inspection](https://trace-check.aliazm419.chatgpt.site)
+
+Browser-based inspection of agent execution traces, with JSON import, a timeline, evidence-linked findings, redaction, and export. Uses rules by default; optional trained TF-IDF suggestions support manual review. Scores are uncalibrated and evaluation is development-only.
+
+**Try:** [live demo](https://trace-check.aliazm419.chatgpt.site)
+
 ### [Drift: sentiment analysis and trend detection](https://github.com/AliAbouelazm/drift)
 
 DistilBERT fine-tuning for three-class sentiment classification, connected to a FastAPI and React application for analyzing Reddit posts. Includes trend aggregation, anomaly detection, and token-level SHAP explanations.
@@ -33,9 +39,9 @@ Work in progress comparing temporal convolutional and sequence-to-sequence Trans
 - **Texas A&M AgriLife:** Machine learning research on livestock biosensor data and AWS data pipelines.
 - **TCG Digital Solutions:** Computer vision work on automated soccer highlight extraction, summer 2025.
 
-## Current research
+## Research experiments
 
-Currently exploring how learned models adapt to changes in physical dynamics, with reproducible experiments and transparent failure analysis. This is an early-stage research pilot; code and demos are not yet public.
+[Physics experiment](https://github.com/AliAbouelazm/physics-experiment): completed comparison of a frozen learned model, two-probe adaptation, and a simple response estimator, with recorded trajectories and failure analysis. In this experiment, adaptation improved predictions over the frozen model but remained worse than the simple estimator and worsened decisions. No learned-adaptation advantage was demonstrated.
 
 ## Tools
 
