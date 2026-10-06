@@ -1,25 +1,44 @@
 # Ali Abouelazm
 
-ML engineer building real-time AI systems: agentic assistants, biosensor prediction pipelines, and applied LLM tooling.
+I build machine learning systems, from model training and evaluation to the data pipelines and applications around them. My work spans language models, computer vision, and time-series prediction.
 
-Studying Data Engineering at Texas A&M University (graduating May 2027). Currently doing ML research at AgriLife and joining Cloudflare's AEO team summer 2026.
+Currently a **Data Engineering co-op on Tesla's Fleet Analytics team**. Previously at **Cloudflare**. Studying **Data Engineering at Texas A&M University**, with expected graduation in **2028**.
 
-**Seeking full-time ML/AI Engineer roles · Available May 2027**
+[Portfolio](https://aliabouelazm.com) · [LinkedIn](https://www.linkedin.com/in/ali-abouelazm/) · [Email](mailto:aliazm419@gmail.com)
 
-## Featured Projects
+## Selected ML projects
 
-- **[Sonus](https://github.com/AliAbouelazm/sonus)**: Autonomous LLM assistant that learns your patterns and orchestrates 10+ real integrations (smart home, wearables, calendar, Spotify) to act without being asked
-- **[clinix.ai](https://github.com/AliAbouelazm/clinix.ai)**: LLM-powered medical triage: symptom parsing -> ML risk scoring -> FastAPI + Streamlit dashboard · [Live demo](https://clinixai.streamlit.app/)
-- **[Causal Marketing Impact](https://github.com/AliAbouelazm/Casual_Marketing_Impact)**: DoubleML app isolating true marketing ROI from confounders · Dockerized + CI/CD
+### [Drift: sentiment analysis and trend detection](https://github.com/AliAbouelazm/drift)
 
-## Technical Skills
+DistilBERT fine-tuning for three-class sentiment classification, connected to a FastAPI and React application for analyzing Reddit posts. Includes trend aggregation, anomaly detection, and token-level SHAP explanations.
 
-**ML & AI:** PyTorch, TensorFlow, scikit-learn, XGBoost, OpenAI/Anthropic APIs, OpenCV, LLM tool-calling
-**Languages:** Python, SQL, C/C++, TypeScript, JavaScript, R
-**Data & Cloud:** AWS (S3, Athena), PostgreSQL, Snowflake, Docker, FastAPI, WebSockets
-**Libraries:** pandas, NumPy, Matplotlib, Seaborn, Dask, SciPy
+**Inspect:** [training and model selection](https://github.com/AliAbouelazm/drift/blob/main/backend/app/model/train.py) · [evaluation](https://github.com/AliAbouelazm/drift/blob/main/backend/app/model/evaluate.py)
 
-## Connect
+### [Isora: diffusion fine-tuning for image stylization](https://github.com/AliAbouelazm/isora)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ali-abouelazm/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?logo=About.me&logoColor=white)](https://aliabouelazm.com)
+Photo-to-isometric illustration pipeline combining Stable Diffusion 1.5, a LoRA adapter, and Canny ControlNet. Includes synthetic-data generation, an Apple Silicon-compatible training loop, and a FastAPI and React interface.
+
+**Inspect:** [LoRA training implementation](https://github.com/AliAbouelazm/isora/blob/main/backend/app/model/train.py) · [setup and architecture](https://github.com/AliAbouelazm/isora#readme)
+
+### [Foresight: sports trajectory prediction](https://github.com/AliAbouelazm/foresight)
+
+Work in progress comparing temporal convolutional and sequence-to-sequence Transformer models for predicting player trajectories. Includes ADE/FDE evaluation in normalized image coordinates and Monte Carlo dropout for uncertainty estimates.
+
+**Inspect:** [evaluation implementation](https://github.com/AliAbouelazm/foresight/blob/main/backend/app/model/evaluate.py) · [models and setup](https://github.com/AliAbouelazm/foresight#readme)
+
+## Experience
+
+- **Tesla, Fleet Analytics:** Data Engineering co-op, fall 2026.
+- **Cloudflare, Marketing: AI Discoverability & Optimization Intern:** Built a Narrative Mismatch Engine using NLP and embedding-based analysis to identify gaps between AI-generated product descriptions and intended positioning, May-August 2026.
+- **Texas A&M AgriLife:** Machine learning research on livestock biosensor data and AWS data pipelines.
+- **TCG Digital Solutions:** Computer vision work on automated soccer highlight extraction, summer 2025.
+
+## Current research
+
+Currently exploring how learned models adapt to changes in physical dynamics, with reproducible experiments and transparent failure analysis. This is an early-stage research pilot; code and demos are not yet public.
+
+## Tools
+
+**Modeling:** Python, PyTorch, scikit-learn, XGBoost, Hugging Face Transformers, OpenCV  
+**Data and systems:** SQL, pandas, NumPy, AWS, PostgreSQL, Docker, FastAPI  
+**Applications:** TypeScript, JavaScript, React
