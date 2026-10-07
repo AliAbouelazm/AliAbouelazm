@@ -12,7 +12,7 @@ Currently a **Data Engineering co-op on Tesla's Fleet Analytics team**. Previous
 
 Browser-based inspection of agent execution traces, with JSON import, a timeline, evidence-linked findings, redaction, and export. Uses rules by default; optional trained TF-IDF suggestions support manual review. Scores are uncalibrated and evaluation is development-only.
 
-**Try:** [live demo](https://trace-check.aliazm419.chatgpt.site)
+**Try:** [live demo](https://trace-check.aliazm419.chatgpt.site) · **Inspect:** [source code](https://github.com/AliAbouelazm/trace-check)
 
 ### [Drift: sentiment analysis and trend detection](https://github.com/AliAbouelazm/drift)
 
